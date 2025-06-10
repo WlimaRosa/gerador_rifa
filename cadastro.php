@@ -219,9 +219,7 @@
             right: 0;
         }
 
-        .ticket-value-box br {
-            /* display: none; */
-        }
+      
 
         .ticket-details {
             font-size: 0.9em;
@@ -260,7 +258,7 @@
 
         .ticket-fields input {
             border: none;
-            border-bottom: 1px dashed #999; /* Linha mais escura e visível */
+            border-bottom: 1px dashed #999; 
             background: transparent;
             width: 100%;
             padding: 2px 0;
@@ -299,17 +297,17 @@
             position: absolute;
             top: 0;
             bottom: 0;
-            width: 30px; /* Mais largo para o efeito de papel */
+            width: 30px; 
             background: linear-gradient(to right, rgba(180,160,130,0.8) 0%, rgba(180,160,130,0) 100%); /* Cor mais escura */
             pointer-events: none;
-            z-index: 1; /* Garante que o efeito fique por cima */
+            z-index: 1; 
         }
 
         .rifa-stub-left::before {
             left: 0;
             border-top-left-radius: 5px;
             border-bottom-left-radius: 5px;
-            transform: translateX(-80%) rotateY(25deg); /* Ajuste de posição e rotação */
+            transform: translateX(-80%) rotateY(25deg);
             transform-origin: right;
         }
 
